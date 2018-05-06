@@ -1,0 +1,40 @@
+/* SERVICES PAGE STYLES */
+
+/* Navigation Styles */
+.partner-nav,
+.inquiry-nav {
+  display: none;
+}
+
+.main-nav {
+  border-bottom: 1px solid #123659;
+}
+
+.testimonial  {
+  background: #878a8d;
+  max-width: 400px;
+  border-radius: 8px;
+  float: right;
+  margin-left: 1rem;
+  padding: 1.5rem 3rem;
+
+}
+.testimonial p {
+  padding: 0;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.testimonial p:last-of-type {
+  text-align: right;
+  font-style: italic;
+  font-size: 1.8rem;
+}
+@media (max-width: 640px) {
+.testimonial {
+  clear: both;
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+}

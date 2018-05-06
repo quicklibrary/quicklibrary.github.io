@@ -1,0 +1,15 @@
+/* ABOUT PAGE STYLES */
+
+/* Navigation Styles */
+.inquiry-nav {
+  display: none;
+}
+
+.main-nav {
+  border-bottom: 1px solid #123659;
+}
+
+/* Section Styles */
+/* section:last-of-type > ::after {
+  display: none;
+} */

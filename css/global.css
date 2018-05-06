@@ -1,0 +1,56 @@
+/* Global Styles */
+html {
+  height: 100vh;
+  background: url("/images/background.png"), #333333;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+  line-height: 1.4;
+}
+
+body {
+  position: relative;
+  background: #fff;
+  max-width: 1280px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+article {
+  padding: 0 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+  line-height: 1;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 4rem;
+  padding: 3rem 0 1.5rem;
+}
+
+p {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+section img {
+  box-sizing: content-box;
+  float: left;
+  width: 165px;
+  margin-top: .5rem;
+  margin-right: 1.5rem;
+  filter: drop-shadow(-2px 2px 3px rgba(0,0,0,0.2));
+}
+section::after {
+  clear: both;
+  content: "";
+  display: block;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #e5e5e5;
+}

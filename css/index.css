@@ -1,0 +1,11 @@
+/* HOME PAGE STYLES */
+
+/* Navigation Styles */
+.partner-nav,
+.inquiry-nav {
+  display: none;
+}
+
+.main-nav {
+  border-bottom: 1px solid #002243;
+}

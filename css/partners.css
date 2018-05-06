@@ -1,0 +1,14 @@
+/* PARTNERS PAGE STYLES */
+
+/* Navigation Styles */
+.inquiry-nav {
+  display: none;
+}
+
+.main-nav {
+  border-bottom: 1px solid #123659;
+}
+
+section:nth-child(2) h2 {
+  color: red;
+}
