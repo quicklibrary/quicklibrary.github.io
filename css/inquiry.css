@@ -1,0 +1,16 @@
+/* INQUIRY PAGE STYLES */
+
+/* Navigation Styles */
+.partner-nav {
+  display: none;
+}
+
+.main-nav {
+  border-bottom: 1px solid #123659;
+}
+
+
+/* Section Styles */
+section {
+  text-align: center;
+}

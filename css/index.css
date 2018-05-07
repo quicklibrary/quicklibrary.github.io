@@ -1,0 +1,18 @@
+/* HOME PAGE STYLES */
+
+/* Navigation Styles */
+.partner-nav,
+.inquiry-nav {
+  display: none;
+}
+
+.main-nav {
+  /* border-bottom: 1px solid #002243; */
+  border-bottom: none;
+}
+
+/* Section Styles */
+section {
+  border: none;
+  padding-bottom: 0;
+}
