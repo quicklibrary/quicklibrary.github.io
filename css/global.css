@@ -1,8 +1,16 @@
 /* Global Styles */
+/* Color variables */
+:root{
+  --dark-gray: #3b3b3b;
+  --light-gray: #545454;
+  --light-highlight: #85bf47;
+}
+
+
 html {
   height: 100vh;
-  background: url("/images/background.png"), #222222;
-  background-size: 16px;
+  width: 100%;
+  background: var(--dark-gray);
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 62.5%;
   line-height: 1.4;
@@ -10,14 +18,11 @@ html {
 
 body {
   position: relative;
-  background: #fff;
+  background: var(--dark-gray);
   max-width: 1280px;
   min-width: 300px;
   margin: 0 auto;
-}
-
-article {
-  padding: 0 2rem;
+  color: white;
 }
 
 h1,
@@ -30,9 +35,10 @@ h6 {
   line-height: 1;
   text-transform: uppercase;
 }
-h2 {
-  font-size: 4rem;
-  padding: 3rem 0 1.5rem;
+
+h1 {
+  font-size: 6rem;
+  padding: 2rem 0;
 }
 
 p {
@@ -40,26 +46,3 @@ p {
   font-size: 1.5rem;
 }
 
-/* Section Styles */
-section img {
-  box-sizing: content-box;
-  float: left;
-  width: 165px;
-  margin-top: 0.5rem;
-  margin-right: 1.5rem;
-  filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.2));
-}
-/* section::after {
-  clear: both;
-  content: "";
-  display: block;
-  padding-bottom: 3rem;
-  border-bottom: 1px solid #e5e5e5;
-} */
-
-section {
-  clear: both;
-  display: block;
-  padding-bottom: 3rem;
-  border-bottom: 1px solid #e5e5e5;
-}
