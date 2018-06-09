@@ -1,3 +1,20 @@
+.dashboard {
+  background: var(--dark-gray);
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: max-content;
+  grid-gap: 4rem;
+  justify-items: center;
+  padding: 4rem;
+
+}
+
+.dashboard a {
+  text-decoration: none;
+}
+
 .box {
   width: 250px;
   height: 250px;
@@ -24,7 +41,7 @@
 .box .title h2 {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 1.2;
   font-weight: normal;
   text-decoration: none;
@@ -40,18 +57,7 @@
 }
 
 .box .icon img {
-  width: 160px;
+  width: 130px;
+  height: 130px;
 
-}
-
-.box1 .icon img {
-  width: 160px;
-
-}
-
-.box2 .icon img {
-  position: relative;
-  width: 168px;
-
-  top: -7px;
 }
