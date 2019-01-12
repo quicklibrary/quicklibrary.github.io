@@ -31,7 +31,7 @@ h1,
 h2 {
   font-family: "Open Sans Condensed";
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 1.1;
   font-weight: 700;
   font-size: 3.5rem;
   color: var(--color-dark-gray);
@@ -40,7 +40,7 @@ h2 {
 }
 
 h2 {
-  line-height: 1.1;
+  line-height: 1.2;
   font-size: 2rem;
 }
 
