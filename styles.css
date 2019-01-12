@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
   --color-black: #222222;
   --color-white: #fafafa;
   --color-light-gray: #eeeeee;
@@ -18,108 +18,54 @@ html {
 }
 
 body {
+  height: 100%;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 1.4;
-  background-color: var(--color-dark-gray);
+  background-color: var(--color-white);
   color: var(--color-black);
+  background: var(--color-gray);
 }
 
 h1,
 h2 {
   font-family: "Open Sans Condensed";
   text-transform: uppercase;
-  line-height: 1.1;
+  line-height: 1.2;
   font-weight: 700;
-  font-size: 4.7rem;
+  font-size: 3.5rem;
   color: var(--color-dark-gray);
-  padding: 2.5rem 0 1.8rem;
   text-align: center;
+  margin: 1.5rem 0;
 }
 
 h2 {
-  line-height: 1.2;
-  font-size: 2.5rem;
+  line-height: 1.1;
+  font-size: 2rem;
 }
 
 p,
 .p_small {
   line-height: 1.9;
   font-weight: 300;
-  font-size: 1.6rem;
+  font-size: 1.1rem;
   color: var(--color-dark-gray);
   margin-bottom: 1.5rem;
 }
 
 .p_small {
-  font-size: 1.3rem;
-  line-height: 1.5;
-}
-
-.wrapper {
-  background-color: var(--color-white);
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 1rem 6rem 6rem;
-}
-
-header {
-  text-align: center;
-  background-color: var(--color-gray);
-  max-width: 120rem;
-  margin: 0 auto;
+  font-size: 0.9rem;
+  line-height: 1.7;
 }
 
 header h1 {
-  letter-spacing: 2px;
-  color: var(--color-white);
   padding: 5rem 0;
 }
 
-/* NAVIGATION */
-.nav {
-  text-align: center;
-  background-color: var(--color-white);
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  flex-wrap: wrap;
-  border-bottom: var(--color-light-gray) solid 2px;
-}
-
-.nav a {
-  line-height: 0px;
-  font-weight: 300;
-  font-size: 1.6rem;
-  letter-spacing: 1px;
-  text-decoration: none;
-  display: inline-block;
-  background-color: transparent;
-  color: var(--color-gray);
-  padding: 3rem 3.25rem;
-}
-
-.nav a:hover {
-  background-color: var(--color-light-gray);
-}
-
-/* SUB NAVIGATION */
-.sub_nav {
+.container {
   background-color: var(--color-white);
 }
 
-.sub_nav a {
-  line-height: 0px;
-  font-weight: 300;
-  font-size: 1.6rem;
-  letter-spacing: 1px;
-  text-decoration: none;
-  display: inline-block;
-  background-color: var(--color-white);
-  color: var(--color-gray);
-  padding: 3rem 3.25rem;
-}
-
-.sub_nav a:hover {
-  background-color: var(--color-light-gray);
+.content {
+  padding: 3rem 4rem;
 }
