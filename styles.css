@@ -46,16 +46,22 @@ h2 {
 
 p,
 .p_small {
-  line-height: 1.9;
+  line-height: 1.8;
   font-weight: 300;
   font-size: 1.1rem;
   color: var(--color-dark-gray);
   margin-bottom: 1.5rem;
+  /* text-align: center; */
+}
+
+p:last-of-type {
+  margin-bottom: 0;
 }
 
 .p_small {
   font-size: 0.9rem;
   line-height: 1.7;
+  text-align: justify;
 }
 
 header h1 {
@@ -67,5 +73,5 @@ header h1 {
 }
 
 .content {
-  padding: 3rem 4rem;
+  padding: 1rem 4rem 4rem;
 }
