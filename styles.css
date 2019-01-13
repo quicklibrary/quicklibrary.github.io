@@ -38,13 +38,13 @@ h2 {
   line-height: 1.1;
   font-weight: 700;
   font-size: 3.5rem;
-  color: var(--color-dark-gray);
+  color: var(--color-gray);
   text-align: center;
   margin: 1.5rem 0;
 }
 
 h2 {
-  line-height: 1.2;
+  line-height: 1;
   font-size: 2rem;
 }
 
@@ -55,7 +55,7 @@ p,
   font-size: 1.1rem;
   color: var(--color-dark-gray);
   margin-bottom: 1.5rem;
-  /* text-align: center; */
+  text-align: justify;
 }
 
 p:last-of-type {
@@ -69,7 +69,8 @@ p:last-of-type {
 }
 
 header h1 {
-  padding: 5rem 0;
+  padding: 2rem 0;
+  margin: 0;
 }
 
 .container {
