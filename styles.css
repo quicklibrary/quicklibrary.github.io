@@ -27,7 +27,7 @@ body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 1.4;
-  color: var(--color-black);
+  color: var(--color-gray);
 }
 
 .container {
@@ -37,13 +37,6 @@ body {
 .content {
   background-color: var(--color-white);
   padding: 1rem 4rem 4rem;
-}
-
-.btn {
-  font-size: 1rem;
-  background-color: var(--color-highlight-1);
-  text-transform: none;
-  box-shadow: none;
 }
 
 h1,
@@ -67,7 +60,7 @@ p,
 .p_small {
   line-height: 1.8;
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--color-dark-gray);
   margin-bottom: 1.5rem;
   text-align: justify;
@@ -83,48 +76,35 @@ p:last-of-type {
   text-align: justify;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  position: relative;
-  background: rgba(0, 0, 0, 0.5);
-  background: var(--color-white);
-  color: var(--color-gray);
-  padding: 1.5rem 4rem 1rem;
-}
-header h1 {
+a {
+  text-decoration: none;
   color: inherit;
-  font-size: 3.5rem;
-  padding: 0;
-  margin: 0 0 0.3rem;
-}
-header p {
-  color: inherit;
-  text-align: right;
-  margin: 0;
-  padding: 0;
-}
-header p:last-of-type {
-  margin-bottom: 0.5rem;
 }
 
-header img {
-  width: 55px;
-  margin-right: 15px;
-  position: absolute;
-  left: 1.5rem;
-  top: 1.5rem;
+/* HEADER */
+header {
+  text-align: center;
+  position: relative;
+  background: var(--color-white);
+  color: var(--color-gray);
+  padding: 1.5rem 4rem 1.5rem;
 }
+header h1 {
+  font-size: 3.5rem;
+  margin: 0 0 0.7rem;
+}
+
+header p {
+  text-align: center;
+  margin: 0 0.8rem;
+}
+
 header .contact-info {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: wrap;
 }
-
-header .btn {
-  position: absolute;
-  left: 4rem;
-  bottom: 1.5rem;
+header a:hover {
+  color: var(--color-highlight-1);
 }
