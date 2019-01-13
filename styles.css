@@ -115,6 +115,10 @@ header .contact-info {
   flex-wrap: wrap;
 }
 
+header img {
+  width: 35px;
+}
+
 header a:hover {
   color: var(--color-highlight-1);
 }
