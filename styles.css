@@ -123,7 +123,7 @@ header a:hover {
   color: var(--color-highlight-1);
 }
 
-.container:first-child {
+/* .container:first-child {
   position: fixed;
   top: 0;
   left: 15%;
@@ -131,4 +131,4 @@ header a:hover {
 
 .container:last-of-type {
   margin-top: 9rem;
-}
+} */
