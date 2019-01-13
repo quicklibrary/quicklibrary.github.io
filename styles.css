@@ -37,7 +37,7 @@ body {
 
 .content {
   background-color: var(--color-white);
-  padding: 1rem 4rem 4rem;
+  padding: 0.5rem 4rem 4rem;
 }
 
 h1,
@@ -49,8 +49,9 @@ h2 {
   font-size: 3rem;
   color: var(--color-gray);
   text-align: center;
-  margin: 1.5rem 0;
   letter-spacing: 1px;
+  margin: 0;
+  padding: 1.3rem 0 1rem;
 }
 
 h2 {
@@ -62,10 +63,10 @@ p,
 .p_small {
   line-height: 1.8;
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--color-dark-gray);
-  margin-bottom: 1.5rem;
   text-align: justify;
+  margin: 0 0 0.5rem;
 }
 
 p:last-of-type {
