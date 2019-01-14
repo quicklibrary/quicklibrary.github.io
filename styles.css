@@ -37,7 +37,7 @@ body {
 
 .content {
   width: 100%;
-  max-width: 85%;
+  max-width: 65%;
   margin: 0 auto;
   background-color: var(--color-white);
   padding: 2rem 2rem 4rem;
