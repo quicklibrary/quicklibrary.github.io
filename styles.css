@@ -7,7 +7,8 @@
 }
 
 html {
-  /* font-size: 62.5%; */
+  font-size: 62.5%;
+  height: 100%;
   --color-black: #222222;
   --color-white: #f7f7f7;
   --color-light-gray: #eeeeee;
@@ -36,6 +37,7 @@ body {
 }
 
 .content {
+  min-height: 100vh;
   width: 100%;
   max-width: 65%;
   margin: 0 auto;
@@ -49,7 +51,7 @@ h2 {
   text-transform: uppercase;
   line-height: 1.1;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 5.5rem;
   color: var(--color-gray);
   text-align: center;
   letter-spacing: 1px;
@@ -59,7 +61,7 @@ h2 {
 
 h2 {
   line-height: 1;
-  font-size: 1.7rem;
+  font-size: 4rem;
   text-align: left;
 }
 
@@ -67,7 +69,7 @@ p,
 .p_small {
   line-height: 1.6;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--color-gray);
   text-align: left;
   margin: 0 0 1rem;
@@ -78,12 +80,13 @@ p:last-of-type {
 }
 
 .p_small {
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.7;
   text-align: justify;
 }
 
 a {
+  font-size: 1.6rem;
   text-decoration: none;
   color: inherit;
 }
