@@ -39,10 +39,9 @@ body {
 .content {
   min-height: 100vh;
   width: 100%;
-  max-width: 65%;
   margin: 0 auto;
   background-color: var(--color-white);
-  padding: 2rem 2rem 4rem;
+  padding: 4rem 8rem;
 }
 
 h1,
@@ -56,23 +55,23 @@ h2 {
   text-align: center;
   letter-spacing: 1px;
   margin: 0;
-  padding: 1.3rem 0 1.5rem;
 }
 
 h2 {
   line-height: 1;
   font-size: 4rem;
   text-align: left;
+  padding-bottom: 2rem;
 }
 
 p,
 .p_small {
-  line-height: 1.6;
+  line-height: 1.5;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: var(--color-gray);
-  text-align: left;
-  margin: 0 0 1rem;
+  text-align: justify;
+  padding: 0 0 1rem;
 }
 
 p:last-of-type {
@@ -99,7 +98,7 @@ header {
   flex-wrap: wrap;
   background: var(--color-white);
   color: var(--color-gray);
-  padding: 1rem 4rem 1.5rem;
+  padding: 4rem 4rem 2rem;
 }
 header h1 {
   margin: 0;
@@ -120,6 +119,8 @@ header .contact-info {
   justify-content: center;
   align-items: flex-end;
   flex-wrap: wrap;
+  position: relative;
+  top: -5px;
 }
 
 header img {
@@ -138,5 +139,14 @@ b {
   width: 100%;
   height: 1px;
   background-color: rgba(0, 0, 0, 0.1);
-  margin: 2.7rem 0 1rem;
+  margin: 2.5rem 0 2.5rem;
 }
+
+.no-gutter {
+  margin: 0;
+  padding: 0;
+}
+
+/* #cover-letter {
+  max-width: 65%;
+} */
