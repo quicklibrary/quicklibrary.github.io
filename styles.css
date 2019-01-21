@@ -70,7 +70,7 @@ p,
   font-weight: 300;
   font-size: 1.7rem;
   color: var(--color-gray);
-  text-align: justify;
+  text-align: left;
   padding: 0 0 1rem;
 }
 
@@ -150,3 +150,12 @@ b {
 /* #cover-letter {
   max-width: 65%;
 } */
+
+#professional-development img,
+#transcripts img {
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
