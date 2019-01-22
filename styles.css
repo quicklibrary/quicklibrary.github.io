@@ -22,7 +22,7 @@ body {
   background: var(--color-gray);
   background-image: url("images/background-image.jpg");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
