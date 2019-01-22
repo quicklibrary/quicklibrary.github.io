@@ -40,6 +40,7 @@ body {
 .content {
   min-height: 100vh;
   width: 100%;
+  max-width: 850px;
   margin: 0 auto;
   background-color: var(--color-white);
   padding: 4rem 8rem;
@@ -67,12 +68,12 @@ h2 {
 
 p,
 .p_small {
-  line-height: 1.5;
+  line-height: 1.6;
   font-weight: 300;
   font-size: 1.7rem;
   color: var(--color-gray);
-  text-align: left;
-  padding: 0 0 1rem;
+  text-align: justify;
+  padding: 0 0 1.5rem;
 }
 
 p:last-of-type {
@@ -157,7 +158,7 @@ b {
   display: block;
   margin: 0 auto;
   width: 100%;
-  max-width: 850px;
+  /* max-width: 850px; */
   margin-bottom: 2rem;
   background-color: var(--color-light-gray-2);
   border: 1px solid rgba(0, 0, 0, 0.075);
