@@ -148,18 +148,16 @@ b {
   padding: 0;
 }
 
-/* #cover-letter {
-  max-width: 65%;
-} */
-
 #professional-development img,
 #transcripts img,
 #certification img,
 #copyright img,
 #reference-1 img {
   text-align: center;
+  display: block;
+  margin: 0 auto;
   width: 100%;
-  max-width: 1200px;
+  max-width: 850px;
   margin-bottom: 2rem;
   background-color: var(--color-light-gray-2);
   border: 1px solid rgba(0, 0, 0, 0.075);
