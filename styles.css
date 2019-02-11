@@ -191,6 +191,7 @@ b {
   padding: 2rem;
   background-color: var(--color-light-gray);
   margin-top: 1.5rem;
+  border-radius: 3px;
 }
 #contact .quote p {
   color: var(--color-gray);
