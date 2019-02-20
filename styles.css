@@ -114,7 +114,7 @@ header p {
 	margin: 0.5rem 1rem 0;
 }
 
-header > * {
+header>* {
 	margin: 0 1rem;
 }
 
@@ -169,7 +169,7 @@ b {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-#contact > * {
+#contact>* {
 	text-align: center;
 }
 
@@ -182,9 +182,11 @@ b {
 	border-radius: 3px;
 	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
+
 #contact h2 {
 	padding-bottom: 1rem;
 }
+
 #contact .quote {
 	margin: 0 auto;
 	max-width: 100%;
@@ -193,13 +195,16 @@ b {
 	margin-top: 1.5rem;
 	border-radius: 3px;
 }
+
 #contact .quote p {
 	color: var(--color-gray);
 	text-align: left;
 }
+
 #contact .quote p:last-of-type {
 	padding: 0;
 }
+
 sup {
 	position: relative;
 	font-size: 1.5rem;
@@ -213,6 +218,7 @@ sup {
 		width: 80%;
 	}
 }
+
 @media only screen and (max-width: 771px) {
 	.container {
 		width: 100%;
@@ -235,20 +241,18 @@ sup {
 	.content {
 		padding: 4rem 2rem;
 	}
-
 	.content h2 {
 		font-size: 3.2rem;
 	}
 	.content p {
 		text-align: left;
-		font-size: 1.5rem;
+		font-size: 1.4rem;
 	}
 	nav ul li {
 		width: 100%;
 		text-align: center;
 		/* border-bottom: 1px solid #f59295; */
 	}
-
 	nav ul a {
 		padding: 0;
 		display: flex;
